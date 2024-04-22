@@ -1,5 +1,5 @@
 {
-  "name": "ScribbleSync",
+  "name": "scribble_sync",
   "private": true,
   "scripts": {
     "build": "turbo build",
