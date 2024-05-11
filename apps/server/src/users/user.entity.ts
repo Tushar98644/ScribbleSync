@@ -16,6 +16,9 @@ export class User {
   @Column({ unique: false })
   password: string;
 
-  @Column({ default: true })
+  @Column({ default: 'user' })
+  role: string;
+
+  @Column({ default: 0 })
   isActive: boolean;
 }
