@@ -2,7 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class User {
-  @PrimaryGeneratedColumn({
+  @PrimaryGeneratedColumn('uuid', {
     comment: 'Unique identifier for the user',
   })
   id: number;

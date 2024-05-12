@@ -7,15 +7,13 @@ import { User } from './user.entity';
 export class UsersController {
   constructor(private usersService: UsersService) {}
 
-  @Public()
   @Get('/all-users')
   async getAllUsers() {
     return this.usersService.findAll();
   }
 
-  @Public()
   @Get('/user/:id')
-  async findUser(@Param(':id') id: number) {
+  async findUser(@Param('id') id: number) {
     return this.usersService.findOne(id);
   }
 
