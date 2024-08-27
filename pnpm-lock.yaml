@@ -52,8 +52,8 @@ importers:
         specifier: ^9
         version: 9.3.0
       eslint-config-next:
-        specifier: 14.2.6
-        version: 14.2.6(eslint@9.3.0)(typescript@5.3.3)
+        specifier: 14.2.7
+        version: 14.2.7(eslint@9.3.0)(typescript@5.3.3)
       postcss:
         specifier: ^8
         version: 8.4.31
@@ -1369,8 +1369,8 @@ packages:
     resolution: {integrity: sha512-bs5DFKV+08EjWrl8EB+KKqev1ZTNONH1vFCaHh911aaB362NnP32UDTbE9VQhyiAgbFqJsfDkSxFERNDDb3j0g==}
     dev: false
 
-  /@next/eslint-plugin-next@14.2.6:
-    resolution: {integrity: sha512-d3+p4AjIYmhqzYHhhmkRYYN6ZU35TwZAKX08xKRfnHkz72KhWL2kxMFsDptpZs5e8bBGdepn7vn1+9DaF8iX+A==}
+  /@next/eslint-plugin-next@14.2.7:
+    resolution: {integrity: sha512-+7xh142AdhZGjY9/L0iFo7mqRBMJHe+q+uOL+hto1Lfo9DeWCGcR6no4StlFbVSVcA6fQLKEX6y6qhMsSKbgNQ==}
     dependencies:
       glob: 10.3.10
     dev: true
@@ -4229,8 +4229,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next@14.2.6(eslint@9.3.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-z0URA5LO6y8lS/YLN0EDW/C4LEkDODjJzA37dvLVdzCPzuewjzTe1os5g3XclZAZrQ8X8hPaSMQ2JuVWwMmrTA==}
+  /eslint-config-next@14.2.7(eslint@9.3.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-ppmy+QdQ7qkuCHGDlPjWaoSbJvjGpWSBD4zEW8f1eWlxYXYpZK7QzBOer1EcHKT3uKhlY1JjUus9g7Kvv712rw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -4238,7 +4238,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 14.2.6
+      '@next/eslint-plugin-next': 14.2.7
       '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/parser': 6.17.0(eslint@9.3.0)(typescript@5.3.3)
       eslint: 9.3.0
@@ -4312,7 +4312,7 @@ packages:
       eslint: 9.3.0
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.17.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.17.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0)
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       get-tsconfig: 4.7.2
       is-core-module: 2.13.1
       is-glob: 4.0.3
