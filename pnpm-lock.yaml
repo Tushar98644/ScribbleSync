@@ -91,8 +91,8 @@ importers:
         specifier: ^5.1.1
         version: 5.1.1
       mysql2:
-        specifier: ^3.11.2
-        version: 3.11.2
+        specifier: ^3.11.3
+        version: 3.11.3
       reflect-metadata:
         specifier: ^0.2.0
         version: 0.2.2
@@ -101,7 +101,7 @@ importers:
         version: 7.8.1
       typeorm:
         specifier: ^0.3.20
-        version: 0.3.20(mysql2@3.11.2)(ts-node@10.9.2)
+        version: 0.3.20(mysql2@3.11.3)(ts-node@10.9.2)
     devDependencies:
       '@nestjs/cli':
         specifier: ^10.4.5
@@ -1370,7 +1370,7 @@ packages:
       '@nestjs/core': 10.4.3(@nestjs/common@10.4.1)(@nestjs/platform-express@10.4.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       reflect-metadata: 0.2.2
       rxjs: 7.8.1
-      typeorm: 0.3.20(mysql2@3.11.2)(ts-node@10.9.2)
+      typeorm: 0.3.20(mysql2@3.11.3)(ts-node@10.9.2)
       uuid: 9.0.1
     dev: false
 
@@ -7461,8 +7461,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /mysql2@3.11.2:
-    resolution: {integrity: sha512-3jhjAk4NHs3rcKjOiFTqmU76kdib/KDOC+lshrYa76QWkcfF1GbYGK4d5PqPljVmIAc0ChozCRmeYIlNp5bz5w==}
+  /mysql2@3.11.3:
+    resolution: {integrity: sha512-Qpu2ADfbKzyLdwC/5d4W7+5Yz7yBzCU05YWt5npWzACST37wJsB23wgOSo00qi043urkiRwXtEvJc9UnuLX/MQ==}
     engines: {node: '>= 8.0'}
     dependencies:
       aws-ssl-profiles: 1.1.1
@@ -9621,7 +9621,7 @@ packages:
   /typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  /typeorm@0.3.20(mysql2@3.11.2)(ts-node@10.9.2):
+  /typeorm@0.3.20(mysql2@3.11.3)(ts-node@10.9.2):
     resolution: {integrity: sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==}
     engines: {node: '>=16.13.0'}
     hasBin: true
@@ -9689,7 +9689,7 @@ packages:
       dotenv: 16.4.5
       glob: 10.3.10
       mkdirp: 2.1.6
-      mysql2: 3.11.2
+      mysql2: 3.11.3
       reflect-metadata: 0.2.2
       sha.js: 2.4.11
       ts-node: 10.9.2(@swc/core@1.7.26)(@types/node@22.5.5)(typescript@5.6.2)
