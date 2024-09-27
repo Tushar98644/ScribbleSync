@@ -17,7 +17,7 @@
     "@turbo/gen": "^2.1.2",
     "@types/node": "^22.7.3",
     "@types/eslint": "^9.6.1",
-    "@types/react": "^18.3.9",
+    "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "eslint": "^9.11.1",
     "react": "^18.3.1",
